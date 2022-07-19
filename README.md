@@ -1,1 +1,1 @@
-# Js-PinCode-Validation
+Javascript-PinCode-Validation
