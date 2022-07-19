@@ -6,13 +6,9 @@ function validatePincode(pincode){
     if(pincodeRegex.test(pincode))
         console.log(pincode + " : Valid Pin Code !!");
     else
-        throw pincode + " : PINCODE is Invalid !";
+        console.log(pincode + " : PINCODE is Invalid !");
 }
 
-try{
-    validatePincode("600041");
-    validatePincode("60001");
-}
-catch(e){
-    console.error(e);
-}
+validatePincode("400088");
+validatePincode("A400088");
+validatePincode("400088B");
